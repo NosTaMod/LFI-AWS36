@@ -1,15 +1,16 @@
-# LFIscanner
+# LFI-AWS36
 
-LFIscanner is a  automatic tool able to scan  Local File Inclusion vulnerabilities using many different methods of attack.
+LFI-AWS36 is a  automatic tool able to scan  Local File Inclusion vulnerabilities using many different methods of attack.
 #### A -> Arena  
 #### W -> Web 
 #### S -> Security 
 #### LFI -> LFI
+#### 36-> Batch-36
 ### Coded by [NosTa](https://t.me/NosTaMod)
 ### Channel Youtube : [Youtube](https://www.youtube.com/c/nostamod)
 
-##### LFIscanner IMAGE
-![alt text](https://a.top4top.io/p_2113f3va81.png "LFIscanner")
+##### LFI-AWS36 IMAGE
+![alt text](https://a.top4top.io/p_2113f3va81.png "LFI-AWS36")
 
 
 
@@ -18,40 +19,40 @@ LFIscanner is a  automatic tool able to scan  Local File Inclusion vulnerabiliti
 
 ## Installation
 ``` 
-$ cd LFIscanner 
+$ cd LFI-AWS36 
 $ pip3 install -r requirements.txt
-$ chmod +x LFIscanner.py 
+$ chmod +x LFI-AWS36.py 
 
 ```
 ## Runing
 
 #### help
 ```
-$ ./LFIscanner.py -h
+$ ./LFI-AWS36.py -h
 ```
 #### Fast Scan Mod
 ```
-$ ./LFIscanner.py -u https://site.com/index.php?page=
-$ ./LFIscanner.py -u https://site.com/index.php?page= -p 127.0.0.1:9050
+$ ./LFI-AWS36.py -u https://site.com/index.php?page=
+$ ./LFI-AWS36.py -u https://site.com/index.php?page= -p 127.0.0.1:9050
 ```
 #### Scan /proc/Self/environ
 ```
-$ ./LFIscanner.py -u https://site.com/index.php?page= -s 
-$ ./LFIscanner.py -u https://site.com/index.php?page= -s -p 127.0.0.1:9050
+$ ./LFI-AWS36.py -u https://site.com/index.php?page= -s 
+$ ./LFI-AWS36.py -u https://site.com/index.php?page= -s -p 127.0.0.1:9050
 ```
 #### Scan /etc/*
 ```
-$ ./LFIscanner.py -u https://site.com/index.php?page= -e
-$ ./LFIscanner.py -u https://site.com/index.php?page= -e -p 127.0.0.1:9050
+$ ./LFI-AWS36.py -u https://site.com/index.php?page= -e
+$ ./LFI-AWS36.py -u https://site.com/index.php?page= -e -p 127.0.0.1:9050
 ```
 #### Scan /proc/self/fd/*
 ```
-$ ./LFIscanner.py -u https://site.com/index.php?page= -f
-$ ./LFIscanner.py -u https://site.com/index.php?page= -f -p 127.0.0.1:9050
+$ ./LFI-AWS36.py -u https://site.com/index.php?page= -f
+$ ./LFI-AWS36.py -u https://site.com/index.php?page= -f -p 127.0.0.1:9050
 ```
 #### Deep Scan <> Scan All Path
 ```
-$ ./LFIscanner.py -u https://site.com/index.php?page= -d
-$ ./LFIscanner.py -u https://site.com/index.php?page= -d  -p 127.0.0.1:9050
+$ ./LFI-AWS36.py -u https://site.com/index.php?page= -d
+$ ./LFI-AWS36.py -u https://site.com/index.php?page= -d  -p 127.0.0.1:9050
 ``` 
 
