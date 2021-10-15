@@ -10,7 +10,7 @@ AWS-LFI is a  automatic tool able to scan  Local File Inclusion vulnerabilities 
 ### Channel Youtube : [Youtube](https://www.youtube.com/c/nostamod)
 
 ##### AWS-LFI IMAGE
-![alt text](https://a.top4top.io/p_2113f3va81.png "AWS-LFI")
+![alt text](http://a.top4top.io/p_2113f3va81.png "AWS-LFI")
 
 
 
