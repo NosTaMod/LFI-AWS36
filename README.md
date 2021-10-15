@@ -19,7 +19,7 @@ AWS-LFI is a  automatic tool able to scan  Local File Inclusion vulnerabilities 
 
 ## Installation
 ``` 
-$ cd AWS-LFI 
+$ cd  LFI-AWS36
 $ pip3 install -r requirements.txt
 $ chmod +x AWS-LFI.py 
 
